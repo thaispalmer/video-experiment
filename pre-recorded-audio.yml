@@ -1,0 +1,27 @@
+metadata:
+  title: Sample script
+  description: >
+    This is the description for the video.\n
+    Using the pipe character, we can set it as it appears.
+    New lines won't be broken unless specified by "\\n".
+
+video:
+  - title:
+      text: First section
+      # voiceover: Now, we'll see the first section
+      audio: assets/vo1.mp3
+  - content:
+      image: https://placekitten.com/1280/720
+      # voiceover: Here's the first image
+      audio: assets/vo2.mp3
+  - content:
+      image:
+        - https://placekitten.com/1080/1080
+        - https://placekitten.com/1920/1080
+        - https://placekitten.com/1280/1024
+      # voiceover: And now a simple slideshow with voiceover
+      audio: assets/vo3.mp3
+  - title:
+      text: Thanks for watching
+      # voiceover: And that's it. Thank you for watching this demonstration
+      audio: assets/vo4.mp3
