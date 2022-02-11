@@ -24,7 +24,7 @@ The script should also contain information about the video metadata that will be
 Before creating the video, I believe we should prepare first the TTS that will be used, so the video duration and transitions can match accordingly to their time.
 
 The TTS process should fetch all voice-over available from the script and use a service such as:
-- [Talkify](https://www.npmjs.com/package/talkify-tts)
+- [Talkify](https://www.npmjs.com/package/talkify-tts-api)
 - [Google Cloud Text-to-speech](https://github.com/googleapis/nodejs-text-to-speech)
 
 With the audio files in hand, we can proceed to the next step
