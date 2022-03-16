@@ -116,11 +116,11 @@
           smartSpeed: 1000
         });
 
-        $('<div>').addClass('click-to-start').appendTo('body');
-        $('.click-to-start').click(() => {
-          $('.click-to-start').remove();
+        // $('<div>').addClass('click-to-start').appendTo('body');
+        // $('.click-to-start').click(() => {
+        //   $('.click-to-start').remove();
           $(document).trigger('video.play');
-        })
+        // })
       });
 
       $(document).on('video.started', () => console.log('Video started'));

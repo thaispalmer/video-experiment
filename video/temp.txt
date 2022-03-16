@@ -1,0 +1,1 @@
+ffmpeg -framerate 60 -i /home/dev/personal/video-experiment/video/timecut-temp-1644610178387/image-%09d.png -pix_fmt yuv420p -y /home/dev/personal/video-experiment/video/video.mp4
